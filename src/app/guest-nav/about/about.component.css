@@ -1,0 +1,546 @@
+mat-toolbar{background-color: transparent;height: 4pc}
+mat-toolbar a{text-decoration: none;color:white}
+.beta{color: white;font-size: 32px;font-family: Georgia, 'Times New Roman', Times, serif;margin-right: 2pc}
+.form-search{display: none}
+@media(min-width:1050px) and (max-width:2500px){
+    .side-btn{display: none}
+    .footer-500{display: none}
+    .search-all{display: none}
+}
+.input-group
+{
+    height: 28px;background-color: transparent;border:none
+}
+.input-group-addon
+{
+    height: 28px;background-color: transparent;border:none
+}
+.search
+ {
+     width:20pc;
+     height:28px;
+     border-style: none;
+     padding-left: 5px;
+     border-top-right-radius: 20px;border-bottom-right-radius: 20px;
+     border: 1px solid #EAEAEA;border-left: none
+ }
+ .btn-search
+ {
+    width:25px;
+    height: 28px;
+    border-style: none;
+    padding: 2px;
+    background-color: white;
+    border-top-left-radius: 25px;border-bottom-left-radius: 25px;padding-left: 5px;
+    border: 1px solid #EAEAEA;border-right: none
+ }
+ .link
+ {
+     margin-left: 50pc
+ }
+ .fa-search{color: #555555}
+ .navlink
+ {
+     font-size: 15px;
+     padding-left: 1pc;
+ }
+ .navlink:hover{
+     color:#2AB967
+ }
+ .btn-join
+ {
+     margin-left: 1pc;
+     height: 2pc;
+     width:4pc;
+     border-style: none;
+     background-color: transparent;
+     border:1px solid white;
+     font-size: 15px;
+     margin-bottom: 4px;
+     border-radius: 2px;
+ }
+ .btn-join:hover{
+     background-color: #2AB967;
+     border:1px solid #2AB967;
+ }
+header
+		{
+			background-image: url('/assets/images/alexander-andrews-290794-unsplash.jpg');
+			width: 100%;
+			height: 530px;
+			background-size: cover;
+			background-position: center center;
+
+
+        }
+
+        .text-imgone
+        {
+            font-size: 55px;
+            position: absolute;
+            top: 200px;
+            left:39.2%;
+        }
+        .text-imgtwo
+        {
+            font-size: 20px;
+            position: absolute;
+            top: 265px;
+            left:45.7%;
+        }
+        .segment
+        {
+            color:white;
+        }
+        #text-one
+        { 
+            width: 375px;
+            border-style: none;
+            height: 35px;
+            background-color: white;
+            padding: 20px;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            margin-top: 2px;
+            font-size: 17px;
+        }
+        .search-all
+        {
+            position: absolute;
+            top: 41%;
+            left:32%;display: none;
+        }
+        .search-all .fa-search{color: white;}
+        #btn-one
+        {
+            height: 40px;
+            width: 130px;
+            border: none;
+            text-transform: uppercase;
+            color: white;
+            background-color: #2AB967;
+            box-shadow: black 1px 1px 3px;
+            border-bottom-right-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        .card{background-color: #F7F7F7;}
+        mat-card span
+        {
+            font-size: 40px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+            color: #0E0E0F;      
+        }
+        mat-card{font-size: 15px;
+        color:#555555;
+        background: white;
+        margin-top: 20px;
+        margin-left: 40px;margin-right: 40px;
+        margin-bottom: 20px;
+        }
+        footer
+        {
+            background-color: #FAFAFA;
+            border-top:1px solid #E5E5E5;
+            padding-top: 1pc;
+            padding-bottom: 2pc;
+        }
+        .foot-one
+        {
+            color:#555555;
+            margin-bottom: 1pc;
+        }
+       
+        footer span
+        {
+            color:#777777;
+            font-size:14px;
+            margin-bottom: 1pc;
+        }
+        .foot-beta
+        {
+            font-size: 35px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color:#555555;
+            margin-bottom: 1pc;
+        }
+        .foot-under
+        {
+            font-size: 13px;
+            color:#777777;
+        }
+
+@media (max-width: 349px) {
+    header
+    {
+        background-image: url('/assets/images/alexander-andrews-290794-unsplash.jpg');
+        width: 100%;
+        height: 530px;
+        background-size: cover;
+        background-position: center center;
+
+
+    }
+    .side-btn{border: none;background-color: transparent}
+.side-btn i
+{
+    color:white;
+}   
+.text-imgone
+{
+    font-size: 35px;
+    position: absolute;
+    top: 200px;
+    left:20.8%;
+}
+.text-imgtwo
+{
+    font-size: 20px;
+    position: absolute;
+    top: 260px;
+    left:31.8%;
+}
+.segment
+{
+    color:white;
+}
+#text-one
+{ 
+    width: 75%;
+    border-style: none;
+    height: 30px;
+    background-color: white;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 2px;
+    font-size: 17px;
+}
+.search-all
+{
+    position: absolute;
+    top: 70%;
+    left:0%;display: none;
+}
+.search-all .fa-search{color: white;}
+#btn-one
+{
+    height: 30px;
+    width: 100px;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: #2AB967;
+    box-shadow: black 1px 1px 3px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+   
+  
+.footer-500
+{
+    background-color: #FAFAFA;
+    border-top:1px solid #E5E5E5;
+    padding-top:1pc;
+    padding-bottom: 2pc;
+}
+mat-expansion-panel{background-color: #FAFAFA}
+footer{display: none;}	
+}
+@media (max-width: 375px) and (min-width:350px) {
+    header
+    {
+        background-image: url(/assets/images/alexander-andrews-290794-unsplash.jpg);
+        width: 100%;
+        height: 530px;
+        background-size: cover;
+        background-position: center center;
+
+
+    }
+    .side-btn{border: none;background-color: transparent}
+    .side-btn i
+    {
+        color:white;
+    }   
+    .text-imgone
+    {
+        font-size: 40px;
+        position: absolute;
+        top: 200px;
+        left:21.5%;
+    }
+    .text-imgtwo
+    {
+        font-size: 20px;
+        position: absolute;
+        top: 260px;
+        left:34.5%;
+    }
+    .segment
+    {
+        color:white;
+    }
+    #text-one
+    { 
+        width: 75%;
+        border-style: none;
+        height: 30px;
+        background-color: white;
+        padding: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        margin-top: 2px;
+        font-size: 17px;
+    }
+    .search-all
+    {
+        position: absolute;
+        top: 70%;
+        left:0%;display: none;
+    }
+    .search-all .fa-search{color: white;}
+    #btn-one
+    {
+        height: 30px;
+        width: 100px;
+        border: none;
+        text-transform: uppercase;
+        color: white;
+        background-color: #2AB967;
+        box-shadow: black 1px 1px 3px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        
+    }
+
+.footer-500
+{
+    background-color: #FAFAFA;
+    border-top:1px solid #E5E5E5;
+    padding-top:1pc;
+    padding-bottom: 2pc;
+}
+mat-expansion-panel{background-color: #FAFAFA}
+footer{display: none;}	
+}
+@media (max-width:430px) and (min-width:410px) {
+    header
+    {
+        background-image: url(/assets/images/alexander-andrews-290794-unsplash.jpg);
+        width: 100%;
+        height: 530px;
+        background-size: cover;
+        background-position: center center;
+
+
+    }    
+    .side-btn{border: none;background-color: transparent}
+    .side-btn i
+    {
+        color:white;
+    }   
+    .text-imgone
+    {
+        font-size: 45px;
+        position: absolute;
+        top: 200px;
+        left:21.7%;
+    }
+    .text-imgtwo
+    {
+        font-size: 20px;
+        position: absolute;
+        top: 260px;
+        left:36.3%;
+    }
+    .segment
+    {
+        color:white;
+    }
+    #text-one
+    { 
+        width: 75%;
+        border-style: none;
+        height: 30px;
+        background-color: white;
+        padding: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        margin-top: 2px;
+        font-size: 17px;
+    }
+    .search-all
+    {
+        position: absolute;
+        top: 70%;
+        left:0%;display: none;
+    }
+    .search-all .fa-search{color: white;}
+    #btn-one
+    {
+        height: 30px;
+        width: 100px;
+        border: none;
+        text-transform: uppercase;
+        color: white;
+        background-color: #2AB967;
+        box-shadow: black 1px 1px 3px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        
+    }
+  
+    .footer-500
+{
+    background-color: #FAFAFA;
+    border-top:1px solid #E5E5E5;
+    padding-top:1pc;
+    padding-bottom: 2pc;
+}
+mat-expansion-panel{background-color: #FAFAFA}
+footer{display: none;}	
+}
+@media (max-width: 770px) and (min-width:760px) {
+    header
+    {
+        background-image: url('/assets/images/alexander-andrews-290794-unsplash.jpg');
+        width: 100%;
+        height: 530px;
+        background-size: cover;
+        background-position: center center;
+
+
+    }
+    .link{margin-left: 15pc;}
+    .side-btn{border: none;background-color: transparent}
+.side-btn i
+{
+    color:white;
+}   
+.text-imgone
+{
+    font-size: 45px;
+    position: absolute;
+    top: 200px;
+    left:34.3%;
+}
+.text-imgtwo
+{
+    font-size: 20px;
+    position: absolute;
+    top: 260px;
+    left:42.4%;
+}
+.segment
+{
+    color:white;
+}
+#text-one
+{ 
+    width: 75%;
+    border-style: none;
+    height: 40px;
+    background-color: white;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 2px;
+    font-size: 17px;
+}
+.search-all
+{
+    position: absolute;
+    top: 40%;
+    left:20%;display: none
+}
+.search-all .fa-search{color: white;}
+#btn-one
+{
+    height: 40px;
+    width: 100px;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: #2AB967;
+    box-shadow: black 1px 1px 3px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}   
+   
+.footer-500{display: none}    
+}
+@media (max-width:1030px) and (min-width:992px) 
+{
+    header
+    {
+        background-image: url('/assets/images/alexander-andrews-290794-unsplash.jpg');
+        width: 100%;
+        height: 530px;
+        background-size: cover;
+        background-position: center center;
+
+
+    }
+    .side-btn{border: none;background-color: transparent}
+    .side-btn i
+    {
+        color:white;
+    }
+    .link
+    {
+        margin-left: 30pc
+    }
+    .text-imgone
+    {
+        font-size: 45px;
+        position: absolute;
+        top: 200px;
+        left:38.2%;
+    }
+    .text-imgtwo
+    {
+        font-size: 20px;
+        position: absolute;
+        top: 250px;
+        left:44.3%;
+    }
+    .segment
+    {
+        color:white;
+    }
+    
+    #text-one
+    { 
+        width: 75%;
+        border-style: none;
+        height: 40px;
+        background-color: white;
+        padding: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        margin-top: 2px;
+        font-size: 17px;
+    }
+    .search-all
+    {
+        position: absolute;
+        top: 40%;
+        left:20%;display: none
+    }
+    .search-all .fa-search{color: white;}
+    #btn-one
+    {
+        height: 40px;
+        width: 100px;
+        border: none;
+        text-transform: uppercase;
+        color: white;
+        background-color: #2AB967;
+        box-shadow: black 1px 1px 3px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;     
+    }  
+.footer-500{display: none}    
+} 
