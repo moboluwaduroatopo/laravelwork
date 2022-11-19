@@ -24,7 +24,7 @@
     "vue": "^2.5.17",
     "vue-template-compiler": "^2.6.10",
     "webpack": "^4.35.3",
-    "webpack-cli": "^3.3.6"
+    "webpack-cli": "^3.3.12"
   },
   "name": "asyms",
   "description": "<p align=\"center\"><img src=\"https://laravel.com/assets/img/components/logo-laravel.svg\"></p>",
